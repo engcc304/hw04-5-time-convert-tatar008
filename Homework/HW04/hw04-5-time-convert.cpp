@@ -19,14 +19,11 @@ int main() {
     int days;
     long long seconds;
 
-    // รับจำนวนวันจากผู้ใช้
     printf("Input Days :\n");
     scanf("%d", &days);
 
-    // คำนวณหน่วยวินาที
     seconds = (long long)days * 24 * 60 * 60;
 
-    // แสดงผลลัพธ์
     printf("%d days = %lld seconds\n", days, seconds);
 
     return 0;
